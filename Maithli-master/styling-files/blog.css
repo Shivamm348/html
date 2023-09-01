@@ -1,0 +1,509 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    box-sizing: border-box;
+  }
+  
+  .main_div1{
+    background-color: #251600;
+    height: 18vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup{
+    flex-direction: column;
+    position: fixed;
+    background-color: white;
+    border-radius: 6px;
+    top: 0%;
+    left: 50%;
+    width: 29%;
+    height: 64%;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: center;
+    padding: 0px 30px 30px;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1)
+    
+  }
+  
+  .open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
+  }
+  
+  
+  .popup .tick{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0 , 0.5);
+  }
+  
+  .qr{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly
+  }
+  
+  .qrImg{
+    height: 75%;
+    width: 100%;
+  }
+  
+  .qrText{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0px 10px;
+  }
+  
+  .popup button{
+    width: 100%;
+    background: #ff6803;
+    margin-top: 1%;
+    padding: 10px 10px;
+    color: white;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0 , 0.5);
+  
+  }
+
+  .div1_inner{
+    background-color: #251600;
+    height: 85%;
+    width: 98%;
+    display: flex;
+  }
+  .nav_img{
+     margin-left: 3%;
+  }
+  
+  .nav_links{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 60%;
+    justify-content: flex-end;
+  
+  }
+  
+  .nav_links a {
+    text-decoration: none;
+    color: white;
+    padding-left: 5%;
+    line-height: 25px;
+  }
+  
+  .nav_btn{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav_btn button{
+    width: 40%;
+    height: 70%;
+    border-radius: 30px;
+    background-color: #ff6803;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  
+/* ------------------------------------ hero section  ------------------------- */
+
+.main_div2{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dce1c8;
+}
+
+.leftDiv{
+    height: 100%;
+    width: 50%;
+    border: 2px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgDiv{
+    height: 80%;
+    width: 80%;
+    border: 2px dashed crimson;
+}
+
+.rightDiv{
+    height: 100%;
+    width: 50%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentDiv{
+    height: 80%;
+    width: 80%;
+    border: 2px dashed crimson;
+    display: flex;
+    flex-direction: column;
+}
+
+.typeBlog{
+    border: 2px solid pink;
+    height: 10%;
+}
+
+.typeBlog h5{
+    font-size: 1.1rem;
+}
+
+.blogTitleMain{
+    border: 2px solid darkblue;
+    height: 55%;
+}
+
+.blogTitleMain h2{
+    font-size: 3rem;
+}
+
+.blogDescMain{
+    border: 2px solid salmon;
+    height: 20%;
+}
+
+.blogDescMain h5{
+    font-size: 1.2rem;
+}
+
+.blogAuthorMain{
+    border: 2px solid brown;
+}
+
+.blogAuthorMain h5{
+    font-size: 1.1rem;
+}
+
+.main_div3{
+    height: 140vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.topCardDiv{
+    height: 50%;
+    width: 100%;
+    border: 2px solid pink;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.cardContainer{
+    height: 75%;
+    width: 28%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.bottomCardDiv{
+    height: 50%;
+    width: 100%;
+    border: 2px solid pink;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cardImg{
+    height: 50%;
+    width: 100%;
+    border: 2px solid darkblue;
+}
+.cardType{
+    height: 10%;
+    width: 100%;
+    border: 2px solid darkviolet;
+    display: flex;
+    align-items: center;
+}
+
+.cardType h4{
+    border: 2px solid pink;
+    margin-left: 5%;
+}
+
+.cardTitle{
+    height: 30%;
+    width: 100%;
+    border: 2px solid darkorange;
+    display: flex;
+    align-items: center;
+}
+.cardAuthor{
+    height: 10%;
+    width: 100%;
+    border: 2px solid darkseagreen;
+    display: flex;
+    align-items: center;
+}
+
+.main_div4{
+    height: 170vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #dce1c8;
+}
+
+.majorTop{
+    height: 50%;
+    width: 100%;
+    border: 2px solid firebrick;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.leftMajor{
+    height: 90%;
+    width: 40%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.rightMajor{
+    height: 90%;
+    width: 40%;
+    border: 2px solid black;
+}
+
+.majorImg{
+    height: 70%;
+    width: 100%;
+    border: 2px solid salmon;
+}
+
+.majorType{
+    height: 5%;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.majorTitle{
+    height: 20%;
+    width: 100%;
+    border: 2px solid salmon;
+    display: flex;
+    align-items: center;
+    
+}
+
+.majorAuthor{
+    height: 5%;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.majorBtm{
+    height: 50%;
+    width: 100%;
+    border: 2px solid firebrick;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* -------------------------- footer ------------------------------------  */
+
+
+.main_div9{
+    height: 90vh;
+    background-color: #251600;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footTop{
+    height: 80%;
+    width: 100%;
+    display: flex;
+  }
+  
+  .topLeft{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .imgName{
+    display: flex;
+    width: 50%;
+    margin: 7% 0 0 4%;
+    align-items: center;
+  }
+  
+  .footerName h3{
+    color: white;
+  }
+  
+  .address{
+    width: 50%;
+    margin: 5% 0 0 4%;
+  }
+  
+  .address h3{
+    color: white;
+  }
+  
+  .contactInfo{
+    width: 50%;
+    margin: 5% 0 0 4%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact{
+    color: white;
+  }
+  
+  .contactEmail{
+    margin-top: 3%;
+  }
+  
+  .contactEmail h3{
+    color: white;
+  }
+  
+  .socialMedia{
+    width: 70%;
+    margin: 5% 0 0 4%;
+    filter: drop-shadow(4px 4px 6px rgba(0, 0, 0, 0.4));
+    display: flex;
+  }
+  
+  .iconsNot1st{
+    padding-left: 15px;
+  }
+  
+  
+  .topRight{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footerR1{
+    margin-top: 7%;
+    margin-right: 7%;
+  }
+  
+  .footerR1 a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .footerR2{
+    margin-top: 7%;
+  }
+  
+  .footerR2 a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .footerR3{
+    margin-top: 7%;
+    margin-left: 7%;
+  }
+  
+  .footerR3 a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .not1stLink{
+    margin-top: 50%;
+  }
+  
+  .not1stLinkTest{
+    margin-top: 25%;
+  
+  }
+  
+  .footbottom{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .line{
+    border: 0.2px solid white;
+  }
+  
+  .bottomContainer{
+    height: 95%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .copyRight{
+    margin-right: 15%;
+  }
+  
+  .copyRight h3{
+    color: white;
+  }
+  .designBy h3{
+    color: white;
+  }
+  .poweredBy{
+    margin-left: 15%;
+  }
+  .poweredBy h3{
+    color: white;
+  }
+  
+  .footerLogo{
+    height: 100px;
+    width: 150px;
+  }

@@ -1,0 +1,305 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat';
+}
+
+.godfather{
+  background-color: #ffd59a;
+  padding-top: 100px;
+}
+.grandfather{
+  
+  max-width: 600px;
+  color: #3c4153;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  line-height: 28px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  border: 2px dashed black;
+ 
+  
+}
+.grandfaher1 {
+  
+  color: #ff6803;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  margin-bottom: 10%;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.8;
+  border: 2px solid black;
+  height: 50%;
+  width: 50%;
+}
+
+.grandfather2{
+  width: 100%;
+  height: 20px;
+}
+.h2{
+  color: #251600;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-family: 'Montserrat';
+  font-size: 55px;
+  font-weight: 600;
+  line-height: 110%;
+}
+.grandfather3{
+  width: 100%;
+  height: 80px;
+}
+.section-overlay-content.black {
+  background-color: #251600;
+  padding-top: 0;
+  padding-bottom: 40px;}
+.container {
+   z-index: 2;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;}
+.center-block-features.mg--100px {
+      z-index: 1;
+      z-index: 1;
+      max-width: 100%;
+      box-shadow: 0 6px 18px rgba(11, 58, 46, .1);
+      box-shadow: none;
+      background-color: rgba(0, 0, 0, 0);
+      border-radius: 20px;
+      padding: 0;
+      position: relative;
+      top: -100px;
+      bottom: 0;
+      overflow: hidden;
+  }
+.center-block-features {
+      width: 100%;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 100px;
+  }  
+.customers-wrapper {
+      background-color: #fff;
+      border-radius: 24px;
+      display: flex;
+      overflow: hidden;
+      box-shadow: 0 6px 18px rgba(11, 58, 46, .1);
+  }   
+  .la-contact-image {
+      width: 36%;
+      object-fit: cover;
+  }
+  img {
+      max-width: 100%;
+      vertical-align: middle;
+      display: inline-block;
+  }
+  img {
+      border: 0;
+  }
+  img {
+      overflow-clip-margin: content-box;
+      overflow: clip;
+  }
+  .customers-content {
+      min-height: 360px;
+      color: #fff;
+      flex-direction: column;
+      flex: 1;
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding: 72px;
+      display: flex;
+      position: relative;
+  }
+  .la-form-component {
+      width: 100%;
+      max-width: 600px;
+      background-color: rgba(0, 0, 0, 0);
+      border: 0 #c3d577;
+      border-radius: 12px;
+      flex-direction: column;
+      align-items: stretch;
+      margin: 0 auto;
+      padding: 0;
+  }
+  .w-form {
+      margin: 0 0 15px;
+  }
+  
+  .la-form-input {
+      height: 38px;
+      min-height: 50px;
+      color: #0b3a2e;
+      background-color: #faf6f3;
+      border: 1px solid #dce1c8;
+      border-radius: 100px;
+      margin-bottom: 20px;
+      padding: 10px;
+      font-size: 15px;
+      line-height: 25px;
+      transition: all .4s;
+  }
+  
+  .la-form-field-wrapper {
+      position: relative;
+  }
+  
+  
+  .la-form-input {
+      height: 38px;
+      min-height: 50px;
+      color: #0b3a2e;
+      background-color: #faf6f3;
+      border: 1px solid #dce1c8;
+      border-radius: 100px;
+      margin-bottom: 20px;
+      padding: 10px;
+      font-size: 15px;
+      line-height: 25px;
+      transition: all .4s;
+  }
+  
+  .la-form-field {
+      grid-column-gap: 1.5rem;
+      grid-row-gap: 1.5rem;
+      grid-template-rows: auto;
+      grid-template-columns: 1fr 1fr;
+      grid-auto-columns: 1fr;
+      display: grid;
+  }
+  
+  .la-field-label {
+      color: #251600;
+      margin-bottom: 0.5rem;
+      font-family: 'Montserrat';
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 26px;
+  }
+  label {
+      margin-bottom: 5px;
+      font-weight: bold;
+      display: block;
+  }
+  .la-form-input.select {
+      color: #251600;
+      background-color: #faf6f3;
+      padding-right: 10px;
+      font-family: 'Montserrat';
+  }
+  .w-select {
+      background-color: #f3f3f3;
+  }
+  .w-input, .w-select {
+      width: 100%;
+      height: 38px;
+      color: #333;
+      vertical-align: middle;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      margin-bottom: 10px;
+      padding: 8px 12px;
+      font-size: 14px;
+      line-height: 1.42857;
+      display: block;
+  }
+  
+  
+  option {
+      font-weight: normal;
+      display: block;
+      white-space-collapse: collapse;
+      text-wrap: nowrap;
+      min-height: 1.2em;
+      padding: 0px 2px 1px;
+  }
+  .la-form-input.text-area {
+      height: auto;
+      min-height: 11.25rem;
+      color: #251600;
+      background-color: #faf6f3;
+      border-radius: 14px;
+      padding-top: 0.75rem;
+      padding-bottom: 0.75rem;
+      font-size: 15px;
+      line-height: 25px;
+      overflow: auto;
+  }
+  .la-form-button-wrapper {
+      flex-direction: column;
+      margin-top: 0.5rem;
+      display: flex;
+  }
+  .btn-primary {
+      height: auto;
+      grid-column-gap: 8px;
+      color: #fff;
+      text-align: center;
+      text-transform: none;
+      -webkit-text-fill-color: inherit;
+      background-color: #ff6803;
+      background-image: none;
+      background-clip: border-box;
+      border-radius: 100px;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 32px;
+      font-family: 'Montserrat';
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 26px;
+      text-decoration: none;
+      transition: all .4s;
+      display: flex;
+      position: relative;
+  }
+  .w-button {
+      color: #fff;
+      line-height: inherit;
+      cursor: pointer;
+      background-color: #3898ec;
+      border: 0;
+      border-radius: 0;
+      padding: 9px 15px;
+      text-decoration: none;
+      display: inline-block;
+  }
+  .w-form-done {
+      text-align: center;
+      background-color: #ddd;
+      padding: 20px;
+      display: none;
+  }
+  .customers-content {
+      min-height: 360px;
+      color: #fff;
+      flex-direction: column;
+      flex: 1;
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding: 72px;
+      display: flex;
+      position: relative;
+  }
+  .w-form-fail {
+      background-color: #ffdede;
+      margin-top: 10px;
+      padding: 10px;
+      display: none;
+  }
